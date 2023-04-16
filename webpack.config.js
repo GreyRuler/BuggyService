@@ -3,7 +3,6 @@ const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 // eslint-disable-next-line import/no-extraneous-dependencies
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const CopyPlugin = require('copy-webpack-plugin');
 const Workbox = require('workbox-webpack-plugin');
 
 module.exports = {
