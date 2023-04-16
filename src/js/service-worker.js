@@ -5,6 +5,6 @@ import { NetworkFirst } from 'workbox-strategies';
 // eslint-disable-next-line no-restricted-globals
 precacheAndRoute(self.__WB_MANIFEST || []);
 registerRoute(
-	/http:\/\/localhost:3000\/news/,
+	/https:\/\/buggyservice.onrender.com\/news/,
 	new NetworkFirst(),
 );

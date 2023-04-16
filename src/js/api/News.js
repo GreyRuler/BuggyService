@@ -1,5 +1,5 @@
 export default class News {
-	static URL = 'http://localhost:3000';
+	static URL = 'https://buggyservice.onrender.com';
 
 	static async list(callback, callbackOffline) {
 		if (navigator.onLine) {
